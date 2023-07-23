@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "discord-bot by nochadv2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nochad.dev",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.7.1",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.11.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "ocr-space-api": "^1.0.1",
+    "openai": "^3.3.0",
+    "tesseract.js": "^4.1.1"
+  }
+}

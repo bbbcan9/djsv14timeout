@@ -45,7 +45,7 @@ module.exports = {
 
         if (users.id == interaction.user.id) return interaction.reply({ content: `Kendine timeout **atamassın.**`, ephemeral: true });
 
-        if (users.id == "1128328184467824743") return interaction.reply({ content: `Hey, kendime **timeout** __attırmaya__ mı **çalışıyorsun?**` });
+        if (users.id == "BOTUN İD'SİNİ GİRİNİZ") return interaction.reply({ content: `Hey, kendime **timeout** __attırmaya__ mı **çalışıyorsun?**` });
 
         if (seçilenKişiYetkileri.has(Discord.PermissionFlagsBits.Administrator)) return interaction.reply({ content: `Seçilen **kişi** bir __admin__ olduğu için ona timeout atamam.`, ephemeral: true });
 
